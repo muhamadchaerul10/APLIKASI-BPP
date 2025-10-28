@@ -9,7 +9,8 @@ def apply_app_config():
 
     # Konfigurasi Halaman Streamlit
     set_page_config(
-        page_title="Dashboard Project BPP IP Suralaya Unit 8",
+        page_title="Dashboard BPP IP Suralaya Unit 8",
         page_icon="⚡",
         layout="wide"
+
     )
