@@ -79,7 +79,7 @@ shap_values_knn = pickle.load(open('shap_values_knn.pkl', 'rb'))
 
 
 # Bagian Judul Halaman Utama
-st.title('⚡ -Aplikasi Simulasi BPP- (Biaya Pokok Produksi)')
+st.title('⚡ Aplikasi Simulasi BPP (Biaya Pokok Produksi)')
 st.caption('Alat bantu pengambilan keputusan berbasis data untuk early warning system BPP')
 tab1, tab2, tab3 = st.tabs(['🔍 Eksplorasi Data', '🤖 Simulasi & Insight Model', '📈 Penjelasan Model'])
 
@@ -817,3 +817,4 @@ with tab3:
     </div>
 
     """, unsafe_allow_html=True)       
+
