@@ -32,8 +32,8 @@ apply_app_config()
 
 
 # File Spreadsheet
-link_file_tampilan = 'https://docs.google.com/spreadsheets/d/16hZccWcjepE-Ac9Qd-9kBpJiJ8zhu2ON/export?format=csv'
-link_file = 'https://docs.google.com/spreadsheets/d/16hZccWcjepE-Ac9Qd-9kBpJiJ8zhu2ON/export?format=xlsx'
+link_file_tampilan = 'https://docs.google.com/spreadsheets/d/1zpv7pDpU0o8kq6Vj_TO9g49v_moWbMyP/export?format=csv'
+link_file = 'https://docs.google.com/spreadsheets/d/1zpv7pDpU0o8kq6Vj_TO9g49v_moWbMyP/export?format=xlsx'
 df_tampilan = pd.read_csv(link_file_tampilan)
 df = pd.read_excel(link_file)
 df_selain_bulan = df.drop('Bulan', axis=1)
@@ -817,4 +817,5 @@ with tab3:
     </div>
 
     """, unsafe_allow_html=True)       
+
 
